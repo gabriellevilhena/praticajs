@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre Mim</title>
+</head>
+<body><header class="top-bar">
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="sobre-mim.html">Sobre Mim</a></li>
+            <li><a href="projeto.html">Projetos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="sobre-mim">
+    <h1>Gabrielle Vilhena </h1>
+    <div class="sobre-tudo">
+    
+        <div class="foto">
+            <img src="imag/foto.jpeg" alt="">
+        </div>
+        <div class="paragrafo">
+            <p>Olá! Eu sou Gabrielle, uma desenvolvedora em formação!
+    
+                Sou paraense, atualmente morando em Belo Horizonte, e estou mergulhando no mundo da programação. No
+                momento,
+                estou aprendendo HTML, CSS, JavaScript e React, buscando constantemente expandir meus conhecimentos e
+                habilidades na criação de websites e aplicações interativas.
+    
+                Minha jornada na tecnologia está apenas começando, mas estou motivada a continuar aprendendo e
+                evoluindo, com o
+                objetivo de me tornar uma desenvolvedora completa.
+    
+                Acompanhe meus projetos e venha descobrir mais sobre essa trajetória!</p>
+    
+            <div class="icones">
+                <img src="imag/icons8-css-48.png" alt="Ícone Css">
+                <img src="imag/icons8-html-40.png" alt="Ícone Html">
+                <img src="imag/icons8-js-48.png" alt="Ícone JavaScript">
+                <img src="imag/icons8-reagir-40.png" alt="ÍconeReact">
+    
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+        <footer>
+            <p>&copy; <span id="year"></span> Desenvolvido por Gabrielle Vilhena</p>
+
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const yearSpan = document.getElementById('year');
+                const currentYear = new Date().getFullYear();
+                yearSpan.textContent = currentYear;
+
+            });
+
+
+        </script>
+   
+
+
+
+
+</body>
+</html>

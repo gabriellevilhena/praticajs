@@ -1,0 +1,286 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+/* estilo geral */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color:#f7efef;
+    padding:20px;
+    
+
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    
+}
+
+hearder nav ul li a{
+    text-decoration: none;
+    color:#f7efef;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: block;
+   transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover{
+    background-color:rgb(14, 13, 13);
+    color: rgb(66, 235, 24);
+}
+
+.top-bar{
+    background-color: rgb(5, 5, 5);
+    color: #eb1717;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 14px;
+    position: fixed;
+    z-index: 1000;
+
+}
+
+.top-bar nav ul{
+    list-style: none;
+    
+
+}
+
+/*.top-bar{
+background-color: black;
+color: #f7efef;
+text-align: center;
+padding: 0;
+width: 100%;
+box-sizing: border-box;
+position: relative;
+}
+*/
+
+a{
+    color:#f7efef;
+}
+
+
+section{
+    margin-top: 40px;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+  
+    
+}
+
+form label,form input, form textarea{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.capa{
+    height: 100vh;
+    background: url('imag/capa.jpeg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.capa h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+
+}
+
+
+.capa p{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+
+}
+
+
+.projeto h1 {
+    text-align: center;
+   
+}
+.carrossel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.carrossel img{
+    width: 100%;
+    height: auto;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 10px;
+    text-align: center;
+   
+}
+
+img{
+    width: 100%;
+    box-sizing: border-box;
+   padding: 20px;
+   height: auto;
+
+   
+   
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+footer{
+
+background-color: black;
+color: white;
+text-align: center;
+padding: 5px 0;
+position: fixed;
+width: 100%;
+bottom: 0;
+
+
+
+}
+
+.sobre-tudo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
+
+
+
+    .foto{
+        width: 35%;
+        box-sizing: border-box;
+       padding: 50px;
+       border-radius: 0%;
+       
+    }
+    
+    .paragrafo{
+    flex-direction: column;
+    width: 600px;
+    display: flex;
+    line-height: 1.7;
+    }
+    
+    
+    .icones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 50%; 
+    
+    
+    
+    }
+    
+    .icones img{
+       max-width:100%;
+        height: auto;
+        
+    }  
+
+
+
+
+    .contato h1{
+
+text-align: center;
+padding: 10%;
+
+
+
+    }
+
+
+
+.contato a{
+    color: #17eb22;
+    margin-right: 15px;
+
+
+    
+}
+
+.contat a{
+display: flex;
+align-items: center;
+padding: 15px;
+
+}  
+
+.imag{
+    width: 5%;
+    right: 5%;
+    
+}
+
+.contat ul{
+    list-style-type: none;
+}
+
+
+
